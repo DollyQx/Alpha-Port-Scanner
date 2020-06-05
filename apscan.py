@@ -3,9 +3,9 @@ import sys
 import threading
 
 usage = "python3 apscan.py START_PORT END_PORT"
-print("*"*70)
-print("Scan your port using this tool")
-print("*"*70)
+print("-"*70)
+print("Welcome to Alpha Port Scanner")
+print("-"*70)
 
 if(len(sys.argv) != 4) :
     print(usage)
