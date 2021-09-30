@@ -2,9 +2,9 @@ import socket
 import sys
 import threading
 
-usage = "python3 apscan.py IP_address START_PORT END_PORT"
+usage = "python apscan.py IP_address START_PORT END_PORT"
 print("-"*70)
-print("Welcome to Alpha Port Scanner")
+print("Welcome to Apscan")
 print("-"*70)
 
 if(len(sys.argv) != 4) :
